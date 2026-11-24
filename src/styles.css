@@ -1,0 +1,54 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  color: #141b2b;
+  background: #f6f7f9;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 16px 24px 48px;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 1.1rem;
+  margin: 24px 0 8px;
+}
+
+#waveform {
+  background: white;
+  border: 1px solid #c9d0db;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+input[type='number'] {
+  width: 4.5em;
+}
+
+.hint {
+  color: #5a6578;
+  font-size: 0.9rem;
+}
+
+td {
+  padding: 3px 16px 3px 0;
+}
+
+tr.active td,
+button.active {
+  background: #ffd699;
+}
+
+#sequence button {
+  min-width: 2.4em;
+  margin-right: 4px;
+}
